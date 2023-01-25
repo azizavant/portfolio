@@ -9,8 +9,13 @@ import {Nav} from "./components/Nav/Nav";
 import {Services} from "./components/Services/Services";
 import {Testimonials} from "./components/Testimonials/Testimonials";
 import {Footer} from "./components/Footer/Footer";
+import {useSelector} from "react-redux";
+import {TestimonialsDataType} from "./store/testimonialsSlice";
+import {useAppSelector} from "./hooks/typed-react-redux-hooks";
 
 export function App() {
+    const testimonialsData = useSelector<any, TestimonialsDataType[]>(state => state.testimonials.testimonialsData)
+    const {portfolioData, otherInfo} = useAppSelector(state => state.portfolio)
     return (
         <div className="App">
             <Header/>
@@ -18,8 +23,9 @@ export function App() {
             <About/>
             <Experience/>
             <Services/>
-            <Portfolio/>
-            <Testimonials/>
+            <Portfolio portfolioData={portfolioData}
+                       otherInfo={otherInfo}/>
+            <Testimonials testimonialsData={testimonialsData}/>
             <Contact/>
             <Footer/>
         </div>
