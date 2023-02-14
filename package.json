@@ -1,6 +1,5 @@
 {
-  "name": "my_portfolio",
-  "homepage": "https://azizavant.github.io/my_portfolio.kz/",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
