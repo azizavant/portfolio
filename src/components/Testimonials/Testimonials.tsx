@@ -16,7 +16,7 @@ export const Testimonials = (props: TestimonialsPropsType) => {
 
     return (
         <section id='testimonials'>
-            <h5>Review from Abzal</h5>
+            <h5>Review from other experienced Developers</h5>
             <h2>Review</h2>
 
             <Swiper className={`container ${s.testimonials__container}`}

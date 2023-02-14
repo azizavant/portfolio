@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Header.module.css';
-import myProfilePhoto from './../../assets/photo_2022-12-20_20-51-24.jpg'
+import myProfilePhoto from '../../assets/profilePhoto.jpg'
 import {CTA} from "./CTA";
 import {HeaderSocials} from "./HeaderSocials";
 

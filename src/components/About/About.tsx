@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './About.module.css'
-import ME from '../../assets/photo_2022-12-20_20-51-24.jpg'
+import ME from '../../assets/photo2.jpg'
 import {FaAward} from "react-icons/fa";
 import {RiFolder3Fill} from "react-icons/ri";
 import {SlGraduation} from "react-icons/sl";
@@ -29,7 +29,7 @@ export const About = () => {
                         <article className={s.about__card}>
                             <FaAward className={s.about__icon}/>
                             <h5>Experience in IT</h5>
-                            <small>8 Months of Studying</small>
+                            <small>8 months of development</small>
                         </article>
 
                         <article className={s.about__card}>
@@ -39,10 +39,10 @@ export const About = () => {
                         </article>
                     </div>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipiscing elit
-                        molestie eget nec ante, donec iaculis tempus mattis in
-                        tristique vel ultrices quisque porttitor nunc, vivamus porta
-                        viverra dictumst fermentum dictum quam facilisis nisi facilisi.
+                        My name is Azizbek. I'm an outstanding frontend developer with incredible
+                        learning skills and the ability to solve problems without giving up. My goal
+                        as a developer is to apply my technical skills in IT development and
+                        troubleshooting to realize the vision and mission of the company.
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>

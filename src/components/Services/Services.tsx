@@ -16,23 +16,27 @@ export const Services = () => {
                     <ul className={s.service__list}>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Creating an amazing design for an application</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Visually appealing, polished, and professional web app</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Optimized for mobile devices and search engines</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Matching the current trends</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Intuitive to use</p>
+                        </li>
+                        <li>
+                            <BsCheck className={s.service__list_icon}/>
+                            <p>With easily accessible contact information</p>
                         </li>
                     </ul>
                 </article>
@@ -44,55 +48,75 @@ export const Services = () => {
                     <ul className={s.service__list}>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Single page applications</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Cross-platform and hybrid apps</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Progressive web apps</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Using technologies proven by time</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Regularly checked for any broken links or not working scripts</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Website Maintenance</p>
+                        </li>
+                        <li>
+                            <BsCheck className={s.service__list_icon}/>
+                            <p>Customer Relationship Management</p>
+                        </li>
+                        <li>
+                            <BsCheck className={s.service__list_icon}/>
+                            <p>Web Hosting</p>
                         </li>
                     </ul>
                 </article>
                 {/*END OF WEB DEVELOPMENT*/}
                 <article className={s.service}>
                     <div className={s.service__head}>
-                        <h3>Content Creation</h3>
+                        <h3>Backend Development</h3>
                     </div>
                     <ul className={s.service__list}>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>API Development and Integration with frontend</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Back-End Software Development</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>End-to-end Security</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Scalability</p>
                         </li>
                         <li>
                             <BsCheck className={s.service__list_icon}/>
-                            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                            <p>Latest Technology</p>
+                        </li>
+                        <li>
+                            <BsCheck className={s.service__list_icon}/>
+                            <p>Full-cycle Backend Development</p>
+                        </li>
+                        <li>
+                            <BsCheck className={s.service__list_icon}/>
+                            <p>Cloud Back-End Solutions</p>
+                        </li>
+                        <li>
+                            <BsCheck className={s.service__list_icon}/>
+                            <p>Backend Refactoring</p>
                         </li>
                     </ul>
                 </article>

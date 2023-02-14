@@ -1,7 +1,6 @@
 import {createSlice} from "@reduxjs/toolkit";
-import NikoImg from "../assets/niko.jpeg";
-import Dev1ceImg from "../assets/dev1ce.jpg";
-import TwistzzImg from "../assets/twistzz.jpg";
+import NurgissaImg from "../assets/Nurgisa.jpg";
+import AbzalImg from '../assets/Abzal_image.jpg'
 
 export type TestimonialsDataType = {
     id: number
@@ -14,20 +13,14 @@ const initialState = {
         {
             id: 1,
             name: 'Abzal Kozhakhmet',
-            avatar: NikoImg,
-            review: 'Lorem ipsum dolor sit amet consectetur adipiscing elit molestie eget nec ante, donec iaculis tempus'
+            avatar: AbzalImg,
+            review: 'an experienced and talented Fronted Developer working at Jusan Bank'
         },
         {
             id: 2,
-            name: 'dev1ce',
-            avatar: Dev1ceImg,
-            review: 'Lorem ipsum dolor sit amet consectetur adipiscing elit molestie eget nec ante, donec iaculis tempus'
-        },
-        {
-            id: 3,
-            name: 'twistzz',
-            avatar: TwistzzImg,
-            review: 'Lorem ipsum dolor sit amet consectetur adipiscing elit molestie eget nec ante, donec iaculis tempus'
+            name: 'Nurgisa Rakhymzhan',
+            avatar: NurgissaImg,
+            review: 'a Frontend Developer working at TOO Mybuh'
         }
     ] as TestimonialsDataType[]
 }
@@ -39,3 +32,5 @@ export const testimonialsSlice = createSlice({
 })
 
 export default testimonialsSlice.reducer
+
+
