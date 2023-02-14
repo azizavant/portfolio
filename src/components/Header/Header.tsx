@@ -17,7 +17,6 @@ export const Header = () => {
                 <div className={s.me}>
                     <img className={s.myPhoto} src={myProfilePhoto} alt="me"/>
                 </div>
-
                 <a href="#contact" className={s.scroll__down}>Scroll Down</a>
             </div>
         </header>
