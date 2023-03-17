@@ -80,7 +80,7 @@ const initialState: PortfolioType = {
         {
             id: 7,
             image: NewsPortal,
-            title: 'News Portal that displays the latest top news around the world',
+            title: 'News Portal that displays the latest top news from around the world',
             github: 'https://github.com/azizavant/fontend_test_task.git',
             demo: 'https://dribbble.com/shots/20333536-Component-library-for-data-visualization'
         }
