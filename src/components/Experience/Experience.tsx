@@ -36,7 +36,21 @@ export const Experience = () => {
                         <article className={s.experience__details}>
                             <BsFillPatchCheckFill className={s.experience__details_icon}/>
                             <div>
+                                <h4>Next</h4>
+                                <small className='text-light'>Proficient</small>
+                            </div>
+                        </article>
+                        <article className={s.experience__details}>
+                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
+                            <div>
                                 <h4>Redux</h4>
+                                <small className='text-light'>Proficient</small>
+                            </div>
+                        </article>
+                        <article className={s.experience__details}>
+                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
+                            <div>
+                                <h4>MobX</h4>
                                 <small className='text-light'>Proficient</small>
                             </div>
                         </article>
