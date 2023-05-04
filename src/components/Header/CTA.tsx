@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Header.module.css'
-import CV from './../../assets/Storyboards (1).pdf'
+import CV from './../../assets/Storyboards.pdf'
 
 export const CTA = () => {
     return (
