@@ -3,6 +3,7 @@ import s from './Experience.module.css'
 import {BsFillPatchCheckFill} from "react-icons/bs";
 
 export const Experience = () => {
+
     return (
         <section id='experience'>
             <h5>What Skills I Have</h5>
@@ -30,7 +31,7 @@ export const Experience = () => {
                             <BsFillPatchCheckFill className={s.experience__details_icon}/>
                            <div>
                                <h4>React</h4>
-                               <small className='text-light'>Proficient</small>
+                               <small className='text-light'>Advanced</small>
                            </div>
                         </article>
                         <article className={s.experience__details}>
@@ -44,6 +45,20 @@ export const Experience = () => {
                             <BsFillPatchCheckFill className={s.experience__details_icon}/>
                             <div>
                                 <h4>Redux</h4>
+                                <small className='text-light'>Advanced</small>
+                            </div>
+                        </article>
+                        <article className={s.experience__details}>
+                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
+                            <div>
+                                <h4>Zustand</h4>
+                                <small className='text-light'>Proficient</small>
+                            </div>
+                        </article>
+                        <article className={s.experience__details}>
+                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
+                            <div>
+                                <h4>React-Query</h4>
                                 <small className='text-light'>Proficient</small>
                             </div>
                         </article>
@@ -58,14 +73,14 @@ export const Experience = () => {
                             <BsFillPatchCheckFill className={s.experience__details_icon}/>
                             <div>
                                 <h4>HTML</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <small className='text-light'>Advanced</small>
                             </div>
                         </article>
                         <article className={s.experience__details}>
                             <BsFillPatchCheckFill className={s.experience__details_icon}/>
                             <div>
                                 <h4>CSS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <small className='text-light'>Advanced</small>
                             </div>
                         </article>
                     </div>
@@ -86,6 +101,13 @@ export const Experience = () => {
                             <div>
                                 <h4>Express.JS</h4>
                                 <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+                        <article className={s.experience__details}>
+                            <BsFillPatchCheckFill className={s.experience__details_icon}/>
+                            <div>
+                                <h4>Nest.JS</h4>
+                                <small className='text-light'>Basic</small>
                             </div>
                         </article>
                         <article className={s.experience__details}>

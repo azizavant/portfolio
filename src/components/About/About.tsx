@@ -23,19 +23,19 @@ export const About = () => {
                         <article className={s.about__card}>
                             <SlGraduation className={s.about__icon}/>
                             <h5>Education</h5>
-                            <small>University Education at the Moscow Polytechnic University(didn't graduate)</small>
+                            <small>University Education at the Moscow Polytechnic University</small>
                         </article>
 
                         <article className={s.about__card}>
                             <FaAward className={s.about__icon}/>
                             <h5>Experience in IT</h5>
-                            <small>8 months of development</small>
+                            <small>1 year and 4 months of development</small>
                         </article>
 
                         <article className={s.about__card}>
                             <RiFolder3Fill className={s.about__icon}/>
                             <h5>Projects</h5>
-                            <small>3 Completed</small>
+                            <small>8 Completed</small>
                         </article>
                     </div>
                     <p>
