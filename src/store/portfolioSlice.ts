@@ -52,6 +52,27 @@ const initialState: PortfolioType = {
             demo: 'https://mtour.kz/'
         },
         {
+            id: 5,
+            image: KamiMenus,
+            title: 'Online Menu with QR code for the company Kami Group',
+            github: 'https://github.com/kami-group/kami-menus.git',
+            demo: 'https://demo.kamidemo.com/menu/delivery/list'
+        },
+        {
+            id: 6,
+            image: KamiAdmin,
+            title: 'Admin Application for the company Kami Group',
+            github: 'https://github.com/kami-group/kami-frontend.git',
+            demo: 'https://app.kamiqr.com'
+        },
+        {
+            id: 7,
+            image: NewsPortal,
+            title: 'News Portal that displays the latest top news from around the world',
+            github: 'https://github.com/azizavant/fontend_test_task.git',
+            demo: 'https://fontend-test-task.pages.dev/'
+        },
+        {
             id: 1,
             image: queueFront_project,
             title: 'an application that serve for restaurants',
@@ -77,27 +98,6 @@ const initialState: PortfolioType = {
             image: SendPulse,
             title: 'an API for writing a feedback for the company Kami Group',
             github: 'https://github.com/kami-group/sendpulse-frontend.git',
-            demo: 'https://dribbble.com/shots/20333536-Component-library-for-data-visualization'
-        },
-        {
-            id: 5,
-            image: KamiMenus,
-            title: 'Online Menu with QR code for the company Kami Group',
-            github: 'https://github.com/kami-group/kami-menus.git',
-            demo: 'https://demo.kamidemo.com/menu/delivery/list'
-        },
-        {
-            id: 6,
-            image: KamiAdmin,
-            title: 'Admin Application for the company Kami Group',
-            github: 'https://github.com/kami-group/kami-frontend.git',
-            demo: 'https://app.kamiqr.com'
-        },
-        {
-            id: 7,
-            image: NewsPortal,
-            title: 'News Portal that displays the latest top news from around the world',
-            github: 'https://github.com/azizavant/fontend_test_task.git',
             demo: 'https://dribbble.com/shots/20333536-Component-library-for-data-visualization'
         }
     ]
