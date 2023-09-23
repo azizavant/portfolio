@@ -6,6 +6,8 @@ import SendPulse from '../assets/SendPulse.png'
 import KamiMenus from '../assets/KamiMenus.png'
 import KamiAdmin from '../assets/KamiAdmin.png'
 import NewsPortal from '../assets/NewsPortal.png'
+import MTourCRM from '../assets/Mtour-CRM-image.png'
+import MTour from '../assets/MTour-image.png'
 
 export interface PortfolioDataType {
     id: number
@@ -35,6 +37,20 @@ const initialState: PortfolioType = {
         liveDemo: "Live Demo"
     },
     portfolioData: [
+        {
+            id: 21,
+            image: MTourCRM,
+            title: 'CRM',
+            github: 'https://github.com/azizavant',
+            demo: 'https://crm.mtour.kz'
+        },
+        {
+            id: 20,
+            image: MTour,
+            title: 'Marketplace for tourism',
+            github: 'https://github.com/azizavant',
+            demo: 'https://mtour.kz/'
+        },
         {
             id: 1,
             image: queueFront_project,
@@ -75,7 +91,7 @@ const initialState: PortfolioType = {
             image: KamiAdmin,
             title: 'Admin Application for the company Kami Group',
             github: 'https://github.com/kami-group/kami-frontend.git',
-            demo: 'https://dribbble.com/shots/20333536-Component-library-for-data-visualization'
+            demo: 'https://app.kamiqr.com'
         },
         {
             id: 7,
